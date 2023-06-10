@@ -18,8 +18,15 @@ const library = [
 
 const numberOfBooksRead = () => {
   // write your code here
+	int count=0;
+	for (let index = 0; index < library.length; index++) {
+		if (library[index]==true) {
+			count++;
+		}
+	}
+	return count;
 };
 
 // Do not change the code below
 
-alert(numberOfBooksRead());
+// alert(numberOfBooksRead());
